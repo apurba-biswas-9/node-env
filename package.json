@@ -5,11 +5,16 @@
   "main": "database.js",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "firebase": "^8.6.8"
+    "firebase": "^8.6.8",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.7",
+    "nodemailer": "^6.9.3",
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node database.js"
+    "start": "node database.js",
+    "email": "node sendemail.js"
   },
   "keywords": [],
   "author": "",
