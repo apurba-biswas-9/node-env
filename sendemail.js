@@ -21,13 +21,13 @@ const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
       user: "dbdbs6864@gmail.com",
-      pass: "----------"
+      pass: "----------------------"
     }
   });
   
 
   const mailOptions = {
-    from: 'dbdbs6864@gmail.com',
+    from: 'sales@k-solutions.dev',
     to: ['abiswas.81@gmail.com', "pallav01@gmail.com"],
     subject: 'Welcome to Our WebSite',
     html: result
